@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    font-family: "Bruno Ace SC", sans-serif;
+    line-height: 1.5;
+}
+
+img{
+    height: auto;
+    vertical-align: middle;
+}
+
+.fs-64{
+    font-size: 64px;
+}
+.fs-128{
+    font-size: 128px;
+}
+.fs-40{
+    font-size: 40px;
+}
+.fs-32{
+    font-size: 32px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.w{
+    color: #ffff;
+}
+.g{
+color: #00ffa3;
+}
+.b1{
+    background: black;
+}
+.b2{
+    background: linear-gradient(to bottom, #050014, #01021e );
+}
+
+.cb{
+    color: #15161d;
+}
+.df{
+    display: flex;
+}
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.header{
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.aic{
+    align-items: center;
+}
+
+.aie{
+    align-items: flex-end;
+}
+
+.fdc{
+    flex-direction: column;
+}
+.fdrr{
+    flex-direction: row-reverse;
+}
+
+.jcfe{
+    justify-content: flex-end;
+}
+
+.h1-a{
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.df .h1-a a{
+    background: #ffff;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 32px;
+}
+.df .h1-a a p{
+    display: inline;
+    margin-right: 4px;
+}
+.box-1{
+    padding-top: 72px;
+    padding-bottom: 32px;
+    align-items: center;
+}
+.mb-36{
+    margin-bottom: 36px;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.mr-16{
+    margin-right: 16px;
+}
+.mr-24{
+    margin-right: 24px;
+}
+
+.mra{
+    margin-right: auto;
+}
+.mb-4{
+    margin-bottom: 4px;
+}
+
+.mb-160{
+    margin-bottom: 160px;
+}
+
+.mt-160{
+    margin-top: 160px;
+}
+
+.mr-4{
+    margin-right: 4px;
+}
+
+.ptb-160{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.ptb-96{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.pd-12-24{
+    padding: 12px 24px;
+}
+
+.pd-16{
+    padding: 16px;
+}
+
+.bd{
+    border: 1px solid #E3E3E3;
+}
+
+.br-32{
+    border-radius: 32px;
+}
+
+.g-24{
+    gap: 24px;
+}
+.g-16{
+    gap: 16px;
+}
+.g-28{
+    gap: 28px;
+}
+.g-20{
+    gap: 20px;
+}
+
+.fw{
+    flex-wrap: wrap;
+}
+.box3{
+    width: 526px;
+}
+.box-4{
+    width: 274px;
+}
+.box-5{
+    width: 636px;
+}
+.box-6{
+    width: 746px;
+    margin-left: auto;
+    margin-bottom: 16px;
+}
+.pic{
+    width: 100px;
+    height: 100px;
+}
+
+.footer p{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
